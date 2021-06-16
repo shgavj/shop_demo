@@ -1,5 +1,15 @@
 module.exports = {
-  presets: [
+  "presets": [
     '@vue/cli-plugin-babel/preset'
+  ],
+  "plugins": [
+    [
+      "component",
+      {
+        "libraryName": "mint-ui",
+        "style": true
+      },
+      "mint-ui"
+    ]
   ]
 }
